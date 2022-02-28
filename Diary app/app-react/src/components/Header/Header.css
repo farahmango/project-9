@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Kalam&family=Open+Sans:wght@300&family=Quicksand:wght@600&family=Roboto:wght@300&display=swap');
+.header {
+  display: flex;
+  gap: 10px;
+  place-items: center;
+  padding: 20px;
+  height: 80px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.205);
+  transform: scale(1);
+  
+}
+.header__title,
+.header__icon {
+  font-size: 25px;
+  color: #ff4545;
+}
+.header__icon {
+  width: 40px;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #ff4545;
+  font-weight: bold;
+  float: right;
+  padding: 20px;
+  flex-flow: rverse;
+  
+}
+.link{
+  display: flex;
+}
